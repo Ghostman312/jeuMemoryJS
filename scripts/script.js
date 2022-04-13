@@ -1,2 +1,0 @@
-let selectedCategory = "le-hobbit";
-
