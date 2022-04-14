@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Jeu du memory</h1>
-    <div> 
-        <p>Score :</p>
-        <label for="score"></label>
+    <header>
+        <h1>Jeu du memory</h1>
+        <div id="scoreDiv"> 
+            <p>Score : </p>
+            <p id="score">0</p>
+        </div>
+    </header>
+    <div id="memoryDiv">
+        <table id="memory">
+        </table>
     </div>
-    <table id="memory">
-    </table>
-    <script src="scripts/selectionCategory.js"></script>
-    <script src="scripts/memoryCreation.js"></script>
-    <script src="scripts/memoryInitialization.js"></script>
+    <script src="memory.js"></script>
 </body>
 </html>
